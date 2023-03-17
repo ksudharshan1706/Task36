@@ -1,6 +1,6 @@
 import express from "express";
-import { MongoClient } from "mongodb";
-import dotenv from "dotenv"; //to connect .env contents over here
+import { MongoClient } from "mongodb"; //npm i mongodb
+import dotenv from "dotenv"; //to connect .env contents over here //npm i dotenv
 //const express = require("express"); type in package.json should be commonjs // importing 3rd party package
 const app = express(); // has all the rest api methods => GET,POST,PUT,DELETE
 dotenv.config();
